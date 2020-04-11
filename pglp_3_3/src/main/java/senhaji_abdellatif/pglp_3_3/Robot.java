@@ -15,6 +15,7 @@ public abstract class Robot {
 	public Robot(final Position p) {
 		position = p;
 	}
+
 	
 	public abstract void avance();
 	
@@ -26,6 +27,7 @@ public abstract class Robot {
 		case Sud :
 			direction = Direction.Ouest;
 		break;
+
 		case Ouest :
 			direction = Direction.Nord;
 		break;
@@ -34,6 +36,7 @@ public abstract class Robot {
 		break;
 		default :
 		break;
+
 		}
 	}
 	
