@@ -21,6 +21,7 @@ public final class App {
         avancerTous(r);
         for (Robot robot : r) {
 			System.out.println(robot.position.toString());
+
 		}
     }
 }
