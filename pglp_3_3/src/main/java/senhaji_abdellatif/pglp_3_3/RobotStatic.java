@@ -8,5 +8,6 @@ public class RobotStatic {
 	
 	public RobotStatic(final int x, final int y) {
 		position = new Position(x, y);
+
 	}
 }
