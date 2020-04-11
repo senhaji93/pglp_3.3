@@ -8,7 +8,7 @@ public class RobotType2 extends Robot {
 		super();
 		this.vitesse = vitesse;
 	}
-	@Override
+	
 	
 	public void avance() {
 		switch (direction) {
@@ -20,6 +20,7 @@ public class RobotType2 extends Robot {
 		break;
 		case Ouest :
 			position.x -= vitesse;
+
 		break;
 		case Est :
 			position.x += vitesse;
