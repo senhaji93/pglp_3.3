@@ -2,8 +2,9 @@ package senhaji_abdellatif.pglp_3_3;
 
 
 public class RobotType1 extends Robot {
-	@Override
 	
+	
+
 	public void avance() {
 		switch (direction) {
 		case Nord :
@@ -18,6 +19,7 @@ public class RobotType1 extends Robot {
 		case Est :
 			position.x++;
 		break;
+
 		default :
 		break;
 		}
